@@ -6,9 +6,10 @@
 
 .items{
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 45% 45%;
-    row-gap: 10%;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 2%;
+    grid-template-rows: 40% 40%;
+    row-gap: 20%;
     text-align: center;
 }
 
