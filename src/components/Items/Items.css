@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 45% 45%;
+    row-gap: 10%;
+    text-align: center;
+}
+
+.item-img{
+    width: 250px;
+    height: 250px;
+}
