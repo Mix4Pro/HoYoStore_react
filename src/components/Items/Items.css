@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    padding: 2%;
+}
 
 .items{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    padding: 2%;
     place-items: center;
 
 }
